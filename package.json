@@ -9,5 +9,8 @@
   },
   "author": "Raphael Roumezin",
   "license": "GPL-3.0-only",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
 }

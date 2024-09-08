@@ -1,7 +1,7 @@
 const { statSync, existsSync, createReadStream, readdirSync } = require('node:fs');
 const http = require('node:http');
 const path = require('node:path');
-const { isReadable } = require('node:stream');
+require('dotenv').config();
 
 const serving_path = process.env.SERVING_PATH ?? path.join(__dirname, "www")
 const token = process.env.ACCESS_TOKEN ?? (() => { throw new Error("No access token was provided") })()
