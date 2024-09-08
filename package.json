@@ -1,0 +1,13 @@
+{
+  "name": "tafs",
+  "displayName": "Trivial Authorized File Server",
+  "version": "0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Raphael Roumezin",
+  "license": "GPL-3.0-only",
+  "description": ""
+}
