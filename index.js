@@ -108,4 +108,7 @@ server.on('listening', () => {
     console.log("Server listening...")
 })
 
-server.listen(process.env.PORT ?? 8000);
+server.listen(
+    process.env.PORT ?? 8000,
+    process.env.BIND_HOST ?? "localhost",
+);
